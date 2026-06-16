@@ -1,0 +1,25 @@
+﻿export const paths = {
+  root: '/',
+  faqs: '/faqs',
+  auth: {
+    jwt: { signIn: '/auth/jwt/sign-in', signUp: '/auth/jwt/sign-up' },
+    firebase: { signIn: '/auth/firebase/sign-in' },
+    amplify: { signIn: '/auth/amplify/sign-in' },
+    auth0: { signIn: '/auth/auth0/sign-in' },
+    supabase: { signIn: '/auth/supabase/sign-in' },
+  },
+  dashboard: {
+    root: '/dashboard',
+    two: '/dashboard/two',
+    three: '/dashboard/three',
+    greenhouses: '/dashboard/greenhouses',
+    packets: '/dashboard/packets',
+    crops: '/dashboard/crops',
+    soil: '/dashboard/soil',
+    irrigation: '/dashboard/irrigation',
+    analysis: '/dashboard/analysis',
+    advisor: '/dashboard/advisor',
+    reports: '/dashboard/reports',
+    settings: '/dashboard/settings',
+  },
+};
