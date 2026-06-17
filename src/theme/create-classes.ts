@@ -1,5 +1,13 @@
-﻿import { themeConfig } from './theme-config';
+﻿// import { themeConfig } from './theme-config';
+
+// export function createClasses(className: string): string {
+//   return ${themeConfig.classesPrefix}__;
+// }
+
+
+
+import { themeConfig } from './theme-config';
 
 export function createClasses(className: string): string {
-  return ${themeConfig.classesPrefix}__;
+  return `${themeConfig.classesPrefix}__${className}`;
 }
